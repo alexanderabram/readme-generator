@@ -42,6 +42,11 @@ const questions = [
         name: 'tests',
         type: 'input',
         message: 'Provide example how to run the code. For Example: How to run the script for mobile application'
+    },
+    {
+        name: 'questions',
+        type: 'input',
+        message: 'Provide any further questions'
     }
 ];
 
