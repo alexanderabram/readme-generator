@@ -24,7 +24,14 @@ const questions = [
         message: 'Provide installation instructions here'
     }
     {
-        name
+        name: 'usage',
+        type: 'input',
+        message: 'How is your application used? Provide instructions here'
+    }
+    {
+        name: 'license',
+        type: 'input',
+        message: 'Would you like to use a license? If yes, provide the license type. If no, type none'
     }
 ];
 
