@@ -1,8 +1,15 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 
-// array of questions for user
 const questions = [
+
+    {
+        name: 'name',
+        type: 'input',
+        message: 'What is the name of your project?'
+
+
+    }
 
 ];
 
