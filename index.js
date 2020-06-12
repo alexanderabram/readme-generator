@@ -38,7 +38,11 @@ const questions = [
         type: 'input',
         message: 'Provide instructions for contributing here'
     },
-    
+    {
+        name:
+        type: 'input',
+        message:
+    }
 ];
 
 // function to write README file
