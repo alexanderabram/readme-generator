@@ -11,7 +11,7 @@ const questions = [
     {
         name: 'description',
         type: 'input',
-        message: 'Provide a description outlining'
+        message: 'Provide a description outlining your project'
     }
 
 ];
