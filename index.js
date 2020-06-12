@@ -13,6 +13,12 @@ const questions = [
         type: 'input',
         message: 'Provide a description outlining your project'
     }
+    {
+        name: 'tableOfContents',
+        type: 'input',
+        message: "Outline the README table of contents here"
+    }
+    
 
 ];
 
