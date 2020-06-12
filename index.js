@@ -16,10 +16,16 @@ const questions = [
     {
         name: 'tableOfContents',
         type: 'input',
-        message: "Outline the README table of contents here"
+        message: 'Outline the README table of contents here'
     }
-    
-
+    {
+        name: 'installation',
+        type: 'input',
+        message: 'Provide installation instructions here'
+    }
+    {
+        name
+    }
 ];
 
 // function to write README file
