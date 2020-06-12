@@ -47,7 +47,7 @@ const questions = [
         name: 'questions',
         type: 'input',
         message: 'Provide any further questions'
-    }
+    },
 ];
 
 // function to write README file
