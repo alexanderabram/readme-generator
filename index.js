@@ -6,10 +6,12 @@ const questions = [
     {
         name: 'title',
         type: 'input',
-        message: 'What is the projects Title?'
+        message: 'What is the project Title?'
     }
     {
-        
+        name: 'description',
+        type: 'input',
+        message: 'Provide a description outlining'
     }
 
 ];
