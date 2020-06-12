@@ -36,12 +36,12 @@ const questions = [
     {
         name: 'contributing',
         type: 'input',
-        message: 'Provide instructions for contributing here'
+        message: 'Provide the description about what people can add in your project'
     },
     {
-        name:
+        name: 'tests',
         type: 'input',
-        message:
+        message: 'Provide example how to run the code. For Example: How to run the script for mobile application'
     }
 ];
 
