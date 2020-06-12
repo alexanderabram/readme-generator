@@ -56,6 +56,9 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
+    inquirer.prompt(questions).then((response) => {
+        fs.appendFileSync('README.md', ('#'))
+    })
 
 }
 
