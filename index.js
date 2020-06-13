@@ -1,6 +1,7 @@
-const fs = require("fs");
-const inquirer = require("inquirer");
-
+const inquirer = require('inquirer'); 
+var fs = require('fs');
+const path = require('path');
+const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
 
     {
