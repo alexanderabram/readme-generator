@@ -59,10 +59,13 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-    inquirer.prompt(questions).then((response) => {
-        fs.appendFileSync('README.md', ('#'))
-    })
-
+    inquirer
+    .prompt (questions)
+.then ((data) => {
+    writeToFile ("README.md", generateMarkdown({...data}))
+}).catch((err)=>{
+    console.log(err);
+})
 }
 
 // function call to initialize program
