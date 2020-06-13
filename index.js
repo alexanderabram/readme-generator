@@ -49,7 +49,7 @@ const questions = [
     {
         name: 'questions',
         type: 'input',
-        message: 'Provide any further questions'
+        message: 'Provide a good place to reachout for questions'
     },
 ];
 
