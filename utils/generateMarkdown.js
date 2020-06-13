@@ -6,6 +6,12 @@ function generateMarkdown(data) {
     ## Description
     ${data.description}
 
+    ## Table of Contents
+    ${data.tableOfContents}
+
+    ## Installation
+    ${data.installation}
+
     
 
   `;
