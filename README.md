@@ -12,7 +12,7 @@ Have the relevant JavaScript open in your text editor. In the correct directory,
 
 ## Usage
 In the correct directory and after running npm install, run 'node index.js'. The user is then asked a series of prompts which will then populate a README file. See video for further details 
-<iframe src="https://drive.google.com/file/d/1kTMAdVIm4iuXcMmWSQn-oPlI-eK9Oqyl/preview" width="640" height="480"></iframe>
+https://drive.google.com/file/d/1kTMAdVIm4iuXcMmWSQn-oPlI-eK9Oqyl/preview
 
 ## License
 none
